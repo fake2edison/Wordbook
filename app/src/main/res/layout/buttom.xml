@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:background="#E0FFFF">
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/Word"
+        android:background="#cad5d9"
+        android:text="单词"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#cad5d9"
+        android:id="@+id/Change"
+        android:text="查询"/>
+    <Button
+        android:layout_width="0dp"
+        android:id="@+id/News"
+        android:background="#cad5d9"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="新闻"/>
+
+</LinearLayout>
